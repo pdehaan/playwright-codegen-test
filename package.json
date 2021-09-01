@@ -1,0 +1,18 @@
+{
+  "name": "playwright-codegen-test",
+  "version": "1.0.0",
+  "main": "test.js",
+  "scripts": {
+    "record": "playwright codegen monitor.firefox.com",
+    "test": "playwright test --headed --browser firefox",
+    "test:headless": "playwright test"
+  },
+  "keywords": [],
+  "author": "Peter deHaan",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "@playwright/test": "^1.14.1",
+    "playwright": "^1.14.1"
+  },
+  "description": ""
+}
